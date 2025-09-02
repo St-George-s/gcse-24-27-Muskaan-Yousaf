@@ -1,0 +1,10 @@
+verb = input("enter a verb:")
+smile = input("enter a smile: ")
+find = input("enter a find: ")
+something = input("enter something: ")
+
+print("And I forget just why I" + verb)
+print("Oh yeah, I guess it makes me" + smile)
+print("I found it hard, it's hard to" + find)
+print("Oh well, whatever, never mind")
+print("kurt smells like" + something)
