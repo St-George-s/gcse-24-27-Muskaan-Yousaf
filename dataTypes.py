@@ -30,13 +30,19 @@ exponent = 2 ** 3
 print(exponent) #to the power of
 
 #activity one - take 2 inputs, multiply them together and output answer
- = ("enter an age: ")
-ageAsAnInt = int(age)
-time = ("enter a time: ")
-timeAsAnInt = int(time)
+age2 = input("enter an age: ")
+ageAsAnInt = float(age2)
+time = input("enter a time: ")
+timeAsAnInt = float(time)
 multiply = timeAsAnInt * ageAsAnInt
 print(multiply)
 
 #activity 2 - input user's age, output age times 7
+userAge = input("enter your age: ")
+userAgeAsAnInt = int(userAge)
+multiply2 = (userAgeAsAnInt * 7)
+print(multiply2)
 
 #activity 3 - take radius as input, output volume of sphere (v = 4/3 x pi x r^3)
+radius = float(input("enter radius: "))
+print("Volume of a sphere with radius ", radius, " is ", 4/3 * 3.14169 * radius ** 3)
