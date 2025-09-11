@@ -1,4 +1,4 @@
- # #this is an example of a fixed loop. print name 10 times
+#  #this is an example of a fixed loop. print name 10 times
 # # for counter in range(10):    
 # #     print("something")
 
@@ -40,4 +40,16 @@
 # for counter1 in range(1,13):
 #     for counter2 in range(1,13):
 #         print(counter1, "X", counter2, "=", counter1 * counter2)
-     
+
+# Extension Activity 
+# Write a Python program that: 
+# Asks the user which times table they would like to see (e.g. 4, 7, 12). 
+# Asks the user how far the table should go (e.g. up to 20). 
+# Prints the chosen times table up to the number given. 
+# Then asks the user if they would like to see another times table and repeats until they type no. 
+
+# timestables = int(input("which timestable do you wanna see?: "))
+# howFar = int(input("how far would you like to go?: "))
+
+# for counter in range(1, howFar + 1):
+#     print(counter * timestables)
