@@ -39,3 +39,21 @@
 # while len(password) < 5:
 #      password = input("AGAIN, what is your password?: ")
 # print("password accepted.")
+
+#15: Write a Python program to ask the user if they would like to watch another episode of Modern Family. If they enter the 
+# word "yes," then print "playing another episode" and repeat. Otherwise, print "See you later!" and stop.
+
+# answer = input("Would you like to watch another episode of Modern Family?")
+# while answer == "yes":
+#     print("Playing another episode")
+#     answer = input("Would you like to watch another episode of Modern Family?")
+# print("See you later!!!")
+
+#16: Write a Python program to keep asking for money until the total amount of money is greater than 100. Print 
+# "I accept your offer" once the total money is greater than 100. 
+
+moneyRequest = (float(input("How much money are you offering?")))
+while moneyRequest > 100:
+    moneyRequest = (float(input("How much money are you offering?")))
+print("Accepted your offer.")
+#UNFINISHED
