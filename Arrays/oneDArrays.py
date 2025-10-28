@@ -23,8 +23,3 @@ total = 0
 for counter in range(len(qFive)):
     total = total + qFive[counter]
 print(total)
-
-#Given the array [12, 45, 2, 9, 50, 33], find and print the maximum value in the array. 
-qSix = [12, 45, 2, 9, 50, 33]
-for counter in range(len(qSix)):
-    
