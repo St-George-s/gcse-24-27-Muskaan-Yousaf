@@ -52,8 +52,7 @@
 #16: Write a Python program to keep asking for money until the total amount of money is greater than 100. Print 
 # "I accept your offer" once the total money is greater than 100. 
 
-moneyRequest = (float(input("How much money are you offering?")))
+moneyRequest = (float(input("How much money are you offering? ")))
 while moneyRequest > 100:
-    moneyRequest = (float(input("How much money are you offering?")))
+    moneyRequest = (float(input("How much money are you offering? ")))
 print("Accepted your offer.")
-#UNFINISHED
